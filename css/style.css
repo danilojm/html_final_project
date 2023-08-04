@@ -126,7 +126,7 @@ p a:hover {
 }
 #body div {
 	margin: 0 auto;
-	padding: 68px 0 0;
+	padding: 60px 0 0;
 	width: 940px;
 }
 #body div ul#featured {
@@ -408,4 +408,17 @@ iframe{
 	border-bottom: 0.3px solid #ddd;
 	margin-bottom: 2rem;
 	padding-bottom: 2rem;
+}
+form
+{
+	align-items: center;
+	padding-left: 180px;
+}
+#button{
+	position: relative;
+	left:200px;
+}
+#formTitle
+{
+	text-align: center;
 }
