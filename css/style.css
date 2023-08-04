@@ -421,3 +421,13 @@ iframe{
 	padding-bottom: 2rem;
 >>>>>>> 90bd90ed9775c46aeb5b53d92f38bd1235597aa6
 }
+
+#image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9, #image10, #image11, #image12{
+	width: 200px;
+	height: 200px;
+}
+
+#humanPhoto{
+	width: 200px;
+	height: 100px;
+}
