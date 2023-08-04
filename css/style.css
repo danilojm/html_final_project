@@ -396,13 +396,7 @@ p a:hover {
 	height: 200px;
 }
 
-figure.humanPhoto{
-	display: inline-block;
-	width: 300px;
-	height: 200px;
-}
-
-p .text {
-	display: inline-block;
-	width: 300px;
+#humanPhoto{
+	width: 200px;
+	height: 100px;
 }
