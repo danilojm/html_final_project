@@ -390,6 +390,7 @@ p a:hover {
 	text-align: right;
 	width: 470px;
 }
+<<<<<<< HEAD
 
 #image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9, #image10, #image11, #image12{
 	width: 200px;
@@ -399,4 +400,24 @@ p a:hover {
 #humanPhoto{
 	width: 200px;
 	height: 100px;
+=======
+.map{
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+iframe{
+	width: 90%;
+	height: 400px;
+}
+#contactTable{
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 0.3px solid #ddd;
+	margin-bottom: 2rem;
+	padding-bottom: 2rem;
+>>>>>>> 90bd90ed9775c46aeb5b53d92f38bd1235597aa6
 }

@@ -46,13 +46,15 @@
 	</div>
 	<div id="body">
 		<div>
-			<p>
-				This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you&#39;re free to use this website template without linking back to us. If you&#39;re having problems editing this website template, then don&#39;t hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
-			</p>
-			<table>
+			<div class="map">
+				<h1>Check Our Place</h1>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46179.84765031568!2d-79.42775319728857!3d43.6639682433611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34ae90d62fe1%3A0x50fbc31e127f9314!2z5aSa5YCr5aSa5Y-D6ICD5pu45ZyW5pu46aSo!5e0!3m2!1szh-TW!2sca!4v1691104332903!5m2!1szh-TW!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			
+			<table id="contactTable">
 				<tr>
 					<td>Store Location</td>
-					<td>: &nbsp;Store 32-C This is just a place holder, so you can see what the site would look like., 1234</td>
+					<td>: &nbsp;789 Yonge St, Toronto, ON M4W 2G8</td>
 				</tr>
 				<tr>
 					<td>Store Hours</td>
@@ -68,9 +70,43 @@
 				</tr>
 				<tr>
 					<td>Email</td>
-					<td>: &nbsp;<a href="http://www.freewebsitetemplates.com/misc/contact" target="_blank">emailus@companyname.com</a></td>
+					<td>: &nbsp;<a href=" " target="_blank">emailus@companyname.com</a></td>
 				</tr>
 			</table>
+		</div>
+		<div>
+			
+			<h1>Feedback Form</h1>
+			<form action="mailto:simon.long@cit.ie" method="post" enctype="text/plain">
+				First Name : <input type="text" name="firstname" placeholder="Enter first name here">
+				Last Name : <input type="text" name="lastname"  placeholder="Enter last name here">
+				<br>
+				<br>
+				<!--It's important that both of these radio button have the same name so they behave as one component (i.e. Only one can be selected at a time)-->  
+				<input type="radio" name="gender" value="male">Male<br>
+				<input type="radio" name="gender" value="female">Female  
+				<br>
+				<br>
+				<!--This uses the new HTML "email" INPUT type which will automatically validates the email address when the SUBMIT button is clicked-->
+				email: <input type="email" name="mail" placeholder="e-mail address">
+				<br>
+				<br>
+				Comment :<br>        
+				<textarea rows="6" cols="50" name="commentfield"></textarea>
+				<br>
+				<br>
+				Conutry:
+				<select name="countychooser">
+				<option value="cork">Cork</option>
+				<option value="dublin">Dublin</option>
+				<option value="galway">Galway</option>
+				<option value="kerry">Kerry</option>
+				</select>
+				<br>
+				<br>
+				<input type="submit" value="Send Feedback">
+				<input type="reset" value="Reset">
+			</form>		
 		</div>
 	</div>
 	<div id="footer">
