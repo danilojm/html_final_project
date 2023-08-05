@@ -441,7 +441,7 @@ form
 }
 
 body {
-	font-family: Verdana, sans-serif;
+	/* font-family: Verdana, sans-serif; */
 	margin: 0
 }
 
@@ -523,4 +523,9 @@ img {
 	.text {
 		font-size: 11px
 	}
+}
+
+.human{
+	display: flex;
+	justify-content: space-between;
 }
