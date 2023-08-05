@@ -125,7 +125,7 @@ p a:hover {
 }
 #body div {
 	margin: 0 auto;
-	padding: 68px 0 0;
+	padding: 60px 0 0;
 	width: 940px;
 }
 #body div ul#featured {
@@ -389,7 +389,17 @@ p a:hover {
 	text-align: right;
 	width: 470px;
 }
+<<<<<<< HEAD
 
+#image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9, #image10, #image11, #image12{
+	width: 200px;
+	height: 200px;
+}
+
+#humanPhoto{
+	width: 200px;
+	height: 100px;
+=======
 .map{
 	width: 100%;
 	height: 80vh;
@@ -426,6 +436,19 @@ iframe{
 	
     margin-left: auto;
 	vertical-align: middle;
+}
+form
+{
+	align-items: center;
+	padding-left: 180px;
+}
+#button{
+	position: relative;
+	left:200px;
+}
+#formTitle
+{
+	text-align: center;
 }
 
 .star img{

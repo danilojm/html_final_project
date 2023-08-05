@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<!-- Website template by freewebsitetemplates.com -->
 <html>
 <head>
 	<meta charset="UTF-8">
 	<title>Contact - Good Music Website</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie7.css"><![endif]-->
 </head>
 <body>
 	<div id="header">
@@ -75,11 +73,12 @@
 			</table>
 		</div>
 		<div>
-			
-			<h1>Feedback Form</h1>
-			<form action="mailto:simon.long@cit.ie" method="post" enctype="text/plain">
-				First Name : <input type="text" name="firstname" placeholder="Enter first name here">
-				Last Name : <input type="text" name="lastname"  placeholder="Enter last name here">
+			<div id="formTitle">
+				<h1>Feedback Form</h1>
+			</div>
+			<form action="getFeedback.php" method="get">
+				First Name : <input type="text" name="firstname" id="firstname" placeholder="Enter first name here">
+				Last Name : <input type="text" name="lastname" id="lastname" placeholder="Enter last name here">
 				<br>
 				<br>
 				<!--It's important that both of these radio button have the same name so they behave as one component (i.e. Only one can be selected at a time)-->  
@@ -92,20 +91,24 @@
 				<br>
 				<br>
 				Comment :<br>        
-				<textarea rows="6" cols="50" name="commentfield"></textarea>
+				<textarea rows="10" cols="70" name="commentfield"></textarea>
 				<br>
 				<br>
 				Conutry:
 				<select name="countychooser">
-				<option value="cork">Cork</option>
-				<option value="dublin">Dublin</option>
-				<option value="galway">Galway</option>
-				<option value="kerry">Kerry</option>
+				<option value="Canada">Canada</option>
+				<option value="America">America</option>
+				<option value="Japan">Japan</option>
+				<option value="Brazil">Brazil</option>
+				<option value="England">England</option>
+				<option value="Taiwan">Taiwan</option>
 				</select>
 				<br>
 				<br>
-				<input type="submit" value="Send Feedback">
-				<input type="reset" value="Reset">
+				<div id="button">
+					<input type="submit" value="Send Feedback">
+					<input type="reset" value="Reset">
+				</div>
 			</form>		
 		</div>
 	</div>

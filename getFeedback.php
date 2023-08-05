@@ -1,14 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-    
+<html>
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="HTML group" />
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <title>Promotion Details</title>
+	<meta charset="UTF-8">
+	<title>Contact - Good Music Website Template</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<div id="header">
@@ -48,9 +43,16 @@
 		</div>
 	</div>
     <div id="body">
-        
+
+        <?php
+	    $firstname = $_GET['firstname'];
+        $lastname = $_GET['lastname'];
+	
+	    echo(.$firstname. '<p> </p>' .$firstname.'<p>, we greatly appreciate your kind words.</p>');
+	
+        ?>
     </div>
-    <div id="footer">
+	<div id="footer">
 		<div>
 			<div>
 				<a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" id="twitter">Twitter</a>
