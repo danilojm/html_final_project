@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<title>Top Seller - Good Music Website</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie7.css"><![endif]-->
 </head>
 <body>
 	<div id="header">
@@ -21,7 +20,7 @@
 				<a href="index.html" id="logo"><img src="images/logo.png" alt="Image"></a>
 				<ul>
 					<li>
-						<a href="blog.html">Feedback</a>
+						<a href="feedback.html">Feedback</a>
 					</li>
 					<li>
 						<a href="contact.html">Contact</a>
@@ -44,55 +43,67 @@
 		</div>
 	</div>
 	<div id="body">
-		<div>
-			<ul>
-				<li>
-					<a href="topseller.html"><img src="images/billie.png" alt="Image" id="image1"></a>
-					<h2>Bille Holiday</h2>
-					<p class="songName">10 CD BOX SET - JAZZ BLUES</p>
-				</li>
-				<li>
-					<a href="topseller.html"><img src="images/frank.png" alt="Image" id="image2"></a>
-					<h2>Frank Sinatra</h2>
-					<p class="songName">Days Of Wine And Roses</p>
-				</li>
-				<li>
-					<a href="topseller.html"><img src="images/louis.png" alt="Image" id="image3"></a>
-					<h2>Louis Armstrong</h2>
-					<p class="songName">Hello dolly</p>
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<a href="topseller.html"><img src="images/sarah.png" alt="Image" id="image4"></a>
-					<h2>Sarah Vaughan</h2>
-					<p class="songName">In The City Of Lights</p>
-				</li>
-				<li>
-					<a href="topseller.html"><img src="images/natking.png" alt="Image" id="image5"></a>
-					<h2>Nat King Cole</h2>
-					<p class="songName">Nat King Cole and His Trio - Circa 1965</p>
-				</li>
-				<li>
-					<a href="topseller.html"><img src="images/ella.png" alt="Image" id="image6"></a>
-					<h2>Ella Fitzgerald</h2>
-					<p class="buythis">Hello, Love</p>
-				</li>
-			</ul>
-		
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+				<div class="numbertext"></div>
+				<h1>Bille Holiday</h1>
+				<h3 class="text">10 CD BOX SET - JAZZ BLUES</h3>
+				<img src="images/billie.png" style="width: 500px">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext"></div>
+				<h1>Frank Sinatra</h1>
+				<h3 class="text">Days Of Wine And Roses</h3>
+				<img src="images/frank.png" style="width: 500px">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext"></div>
+				<h1>Louis Armstrong</h1>
+				<h3 class="text">Hello dolly</h3>
+				<img src="images/louis.png" style="width: 500px">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext"></div>
+				<h1>Sarah Vaughan</h1>
+				<h3 class="text">In The City Of Lights</h3>
+				<img src="images/sarah.png" style="width: 500px">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext"></div>
+				<h1>Nat King Cole</h1>
+				<h3 class="text">Nat King Cole and His Trio - Circa 1965</h3>
+				<img src="images/natking.png" style="width: 500px">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext"></div>
+				<h1>Ella Fitzgerald</h1>
+				<h3 class="text">Hello, Love</h3>
+				<img src="images/ella.png" style="width: 500px">
+			</div>
+			
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+
 		</div>
-	</div>
+
 	<div id="footer">
 		<div>
 			<div>
-				<a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" id="twitter">Twitter</a>
-				<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" id="facebook">Facebook</a>
-				<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" id="googleplus">Google&#43;</a>
+				<a href="https://twitter.com/" target="_blank" id="twitter">Twitter</a>
+				<a href="https://www.facebook.com/" target="_blank" id="facebook">Facebook</a>
+				<a href="http://www.googleplus.com/" target="_blank" id="googleplus">Google&#43;</a>
 			</div>
 			<p>
 				&copy; Copyright 2012. All rights reserved
 			</p>
 		</div>
 	</div>
+	<script src="js/slide.js"></script>
 </body>
 </html>
