@@ -410,18 +410,40 @@ iframe{
 	padding-bottom: 2rem;
 }
 
-.human img{
+.man img{
 	display: block;
     margin-right: auto;
 	width: 300px;
 	height: 200px;
 }
-
-.text{
+.man{
+	display: flex;
+	align-items: center;
+	
+}
+/*.text{
 	
     margin-left: auto;
 	vertical-align: middle;
+}*/
+
+.woman img{
+	display: flex;
+    margin-left: auto;
+	width: 300px;
+	height: 200px;
+	justify-content: center;
+	text-align: center;
 }
+/*#woman{
+	display: flex;
+	justify-content: space-between;
+}*/
+.text2{
+
+}
+
+
 form
 {
 	align-items: center;
@@ -523,9 +545,4 @@ img {
 	.text {
 		font-size: 11px
 	}
-}
-
-.human{
-	display: flex;
-	justify-content: space-between;
 }
