@@ -5,6 +5,11 @@
 	<title>Contact - Good Music Website</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+<script>
+	function Alert() {
+		alert("Thanks for Feedback!");
+	}
+</script>
 <body>
 	<div id="header">
 		<div>
@@ -106,7 +111,7 @@
 				<br>
 				<br>
 				<div id="button">
-					<input type="submit" value="Send Feedback">
+					<input type="submit" value="Send Feedback" formaction="index.html" onclick="Alert()">
 					<input type="reset" value="Reset">
 				</div>
 			</form>		
@@ -124,5 +129,7 @@
 			</p>
 		</div>
 	</div>
+
+	
 </body>
 </html>
