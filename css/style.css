@@ -294,42 +294,7 @@ p a:hover {
 	padding: 0;
 	width: auto;
 }
-/*#body div div div#article {
-	float: left;
-	padding: 0;
-	width: 690px;
-}
-#body div div div#article p {
-	line-height: 24px;
-}
-#body div div div#sidebar {
-	float: right;
-	padding: 0;
-	width: 215px;
-}
-#body div div div#sidebar ul {
-	list-style: disc;
-	margin: 0 0 30px;
-	padding: 0 0 0 18px;
-}
-#body div div div#sidebar ul li {
-	color: #939598;
-	float: none;
-	line-height: 30px;
-	margin: 0;
-	width: auto;
-}
-#body div div div#sidebar ul li:hover {
-	color: #bcbec0;
-}
-#body div div div#sidebar ul li a {
-	color: #939598;
-	text-decoration: none;
-}
-#body div div div#sidebar ul li a:hover {
-	color: #bcbec0;
-	text-decoration: underline;
-}*/
+
 #footer {
 	background: url(../images/footer-shadow.png) repeat-x left top;
 	min-height: 175px;
@@ -454,7 +419,7 @@ form
 }
 
 body {
-	/* font-family: Verdana, sans-serif; */
+	font-family: Verdana, sans-serif;
 	margin: 0
 }
 
